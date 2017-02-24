@@ -7,5 +7,5 @@ addons:
 language: java
 jdk:
   - oraclejdk8
-install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-script: mvn test -B -pl !demo-original
+install: ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script: ./mvnw test -B -pl !demo-original
